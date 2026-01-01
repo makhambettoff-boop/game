@@ -2,3 +2,26 @@
   color: yellowgreen;
   background-color: violet;
 }
+
+.auth {
+  display: flex;
+  justify-content: center;
+  color: yellowgreen;
+  padding: 4px;
+}
+
+.sign-in {
+  background-color: yellowgreen;
+}
+
+#password {
+  background-color: wheat;
+}
+
+#email {
+  background-color: wheat;
+}
+
+.temp {
+  flex-direction: column;
+}
