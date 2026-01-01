@@ -1,2 +1,14 @@
-console.log("Hello my first doc 2");
-console.log("rassul ee");
+function Calculator (a, b, c){
+    if (Number.isNaN(a)|| Number.isNaN(c)) return "ошибка"
+if (b=== "+"){
+    return a+c}
+if (b=== "-"){
+    return a-c}
+if (b=== "*"){
+    return a*C}
+    if (b=== "/") {
+        if (c=== 0) return "ошибка"
+        return a/c
+    }
+        
+};
