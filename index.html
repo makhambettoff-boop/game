@@ -1,11 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documen216465223t</title>
+    <title>Мини-калькулятор</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        max-width: 420px;
+      }
+      input,
+      select,
+      button {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        font-size: 16px;
+      }
+      .result {
+        margin-top: 12px;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello</h1>
+    <h2>Мини-калькулятор</h2>
+
+    <input id="a" type="text" placeholder="Введите число A (например 10)" />
+    <select id="op">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input id="b" type="text" placeholder="Введите число B (например 3)" />
+
+    <button class="btn" id="btn">Посчитать</button>
+
+    <div class="result">Результат: <span id="out">—</span></div>
+    <script src="./inndex.js"></script>
   </body>
 </html>
